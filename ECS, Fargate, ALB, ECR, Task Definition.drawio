@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T10:27:24.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="7CZkutcFmAbs7nt7vgSj" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T10:29:12.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="z7uFSRwGCoooHmqHrLO4" type="github">
   <diagram id="JSZGtELMuPq8PO9FkglY" name="Page-1">
     <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -55,6 +55,15 @@
         <mxCell id="6mEMHJtNszO1gkZ6zy6h-34" value="Fargate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="6mEMHJtNszO1gkZ6zy6h-35">
           <mxGeometry x="68" y="19" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="6mEMHJtNszO1gkZ6zy6h-58" value="" style="group" vertex="1" connectable="0" parent="6mEMHJtNszO1gkZ6zy6h-12">
+          <mxGeometry x="55" y="430" width="169" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEMHJtNszO1gkZ6zy6h-56" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_nat_gateway;fillColor=#F58534;gradientColor=none;fontColor=#000000;" vertex="1" parent="6mEMHJtNszO1gkZ6zy6h-58">
+          <mxGeometry width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEMHJtNszO1gkZ6zy6h-57" value="NAT Gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="6mEMHJtNszO1gkZ6zy6h-58">
+          <mxGeometry x="69" y="21" width="100" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="6mEMHJtNszO1gkZ6zy6h-13" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="760" y="120" width="245" height="560" as="geometry" />
         </mxCell>
@@ -94,6 +103,15 @@
         <mxCell id="6mEMHJtNszO1gkZ6zy6h-47" value="Fargate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="6mEMHJtNszO1gkZ6zy6h-48">
           <mxGeometry x="68" y="19" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="6mEMHJtNszO1gkZ6zy6h-59" value="" style="group" vertex="1" connectable="0" parent="6mEMHJtNszO1gkZ6zy6h-13">
+          <mxGeometry x="61.5" y="441.33000000000004" width="169" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEMHJtNszO1gkZ6zy6h-60" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_nat_gateway;fillColor=#F58534;gradientColor=none;fontColor=#000000;" vertex="1" parent="6mEMHJtNszO1gkZ6zy6h-59">
+          <mxGeometry width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEMHJtNszO1gkZ6zy6h-61" value="NAT Gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="6mEMHJtNszO1gkZ6zy6h-59">
+          <mxGeometry x="69" y="21" width="100" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="6mEMHJtNszO1gkZ6zy6h-19" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="250" y="227.75" width="120" height="34.5" as="geometry" />
         </mxCell>
@@ -114,6 +132,24 @@
         </mxCell>
         <mxCell id="6mEMHJtNszO1gkZ6zy6h-23" value="Internet Gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="6mEMHJtNszO1gkZ6zy6h-24">
           <mxGeometry x="69" y="26" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEMHJtNszO1gkZ6zy6h-52" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="572.13" y="-260" width="140.5" height="85.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEMHJtNszO1gkZ6zy6h-50" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.route_53;fillColor=#F58536;gradientColor=none;fontColor=#000000;" vertex="1" parent="6mEMHJtNszO1gkZ6zy6h-52">
+          <mxGeometry width="70.5" height="85.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEMHJtNszO1gkZ6zy6h-51" value="Route 53" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="6mEMHJtNszO1gkZ6zy6h-52">
+          <mxGeometry x="70.5" y="27.75" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEMHJtNszO1gkZ6zy6h-55" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="570" y="-400" width="144.75" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEMHJtNszO1gkZ6zy6h-53" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_3;fillColor=#D2D3D3;gradientColor=none;fontColor=#000000;" vertex="1" parent="6mEMHJtNszO1gkZ6zy6h-55">
+          <mxGeometry width="79.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6mEMHJtNszO1gkZ6zy6h-54" value="Internet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="6mEMHJtNszO1gkZ6zy6h-55">
+          <mxGeometry x="84.75" y="12" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
